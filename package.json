@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JohannesRasinger/create-atvise-app.git",
+    "url": "git+https://github.com/JohannesRasinger/webmi-react.git",
     "directory": "packages/react"
   },
   "author": "Lukas Hechenberger <npm@ls-age.com>",
   "bugs": {
-    "url": "https://github.com/JohannesRasinger/create-atvise-app/issues"
+    "url": "https://github.com/JohannesRasinger/webmi-react/issues"
   },
   "main": "out/index.js",
   "module": "out/index.mjs",
@@ -24,7 +24,7 @@
     "react-dom": "^16.13.1 || ^17.0.1 || ^18.0.1"
   },
   "dependencies": {
-    "@atvise/modular-webmi": "workspace:*"
+    "@atvise/modular-webmi": "0.2.1"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "8.1.0",
